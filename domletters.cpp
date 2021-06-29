@@ -1,3 +1,6 @@
+//Shows the total dominant letter count of each alphabetic word in a string, as delimited by whitespace
+//Max Van Raden, 2021
+
 #include <iostream>
 #include <string>
 #include <ctype.h>
