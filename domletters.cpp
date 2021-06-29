@@ -22,7 +22,7 @@ int main (){
     }
     else { //found whitespace, parse word
       if(word[0]) {
-        for(int j = 0; word[j]; j++) { //outer loop of blunt force trama
+        for(int j = 0; word[j]; j++) { //outer loop of blunt force trama parsing
           int current = 1; //count of current letter appearances in word
           if(!isalpha(word[j])) {//if a character in the word is not alphabetic, exit the loop and continue on to next word
             count = 0;
